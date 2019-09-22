@@ -1,0 +1,35 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&&node ./node_modules/mocha/bin/mocha -t 70000 -R spec --exit",
+    "test:file": "set NODE_ENV=development&&node ./node_modules/mocha/bin/mocha --reporter spec --exit",
+    "test:file:debug": "set NODE_ENV=test&&node ./node_modules/mocha/bin/mocha --inspect-brk --reporter spec --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohan2602/FirstApplication.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Rohan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.7.1",
+    "path": "^0.12.7",
+    "util": "^0.12.1"
+  }
+}

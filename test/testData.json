@@ -1,0 +1,19 @@
+{
+    "userInfo": {
+        "name": "testUser",
+        "email": "abc@abc.com",
+        "password": "abc@1234"
+    },
+    "activity": {
+        "activityName": "todo-test",
+        "description": ""
+    },
+    "updateActivity": {
+        "id": "123",
+        "activityName": "todo-test",
+        "description": ""
+    },
+    "deleteActivity": {
+        "id": "123"
+    }
+}
