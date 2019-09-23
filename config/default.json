@@ -11,13 +11,7 @@
         "mongodb_session_store_url": "mongodb://mongodb://10.26.32.135:27017/pncsessions"
     },
     "auth": {
-        "token_validity": 3600,
-        "cookie_validity": 3600
-    },
-    "cookie": {
-        "path": "/",
-        "name": "ril_xsprs_sid",
-        "validity": 3600
+        "token_validity": 3600
     },
     "token": {
         "validity": 86400,
