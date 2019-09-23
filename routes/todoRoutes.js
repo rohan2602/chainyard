@@ -7,15 +7,15 @@ router.route('/getactivity/:activityName?')
     .get(todoContoller.getActivity)
 
 router.route('/createactivity')
-    .post(middleWare.validateSaveActivity)
+    .all(middleWare.validateSaveActivity)
     .post(todoContoller.saveActivity)
 
 router.route('/deleteactivity/:id')
-    .delete(middleWare.validateDeleteActivity)
+    .all(middleWare.validateDeleteActivity)
     .delete(todoContoller.deleteActivity)
 
 router.route('/updateactivity')
-    .put(middleWare.validateUpdateActivity)
+    .all(middleWare.validateUpdateActivity)
     .put(todoContoller.updateActivity)
 
 module.exports = router;
